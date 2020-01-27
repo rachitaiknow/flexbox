@@ -1,0 +1,104 @@
+
+body{
+    color: white;
+    background-color: rgb(0,0,0);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: medium ;
+}
+
+
+
+.container{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    width:90%;
+    margin:0px auto;
+    align-content: space-between;
+}
+
+.flex{
+    width:20%;
+    padding:10px;
+}
+
+
+.first-header{
+    display:flex;
+    justify-content: space-between;
+}
+
+.logo-image{
+    height: 50px;
+    width:10px;
+    display: inline;
+    flex-grow: 2;
+    margin-left:-20px !important;
+}
+
+.flex-header{
+    margin-bottom:15%;
+}
+
+.flex-header-text{
+    display: inline;
+    font-family: 'Taviraj', serif;
+    font-size: x-large;
+
+}
+
+
+
+
+.submit-button{
+    background-color: red;
+    border: none;
+    color:white;
+}
+
+
+.sixth-flex{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.flex-images{
+    width:30%;
+    padding:1%;
+}
+
+
+.five-items{
+    list-style-type: none;
+ }
+ .five-items::before {
+        content: '';
+        display: inline-block;
+        height: 60px;
+        width: 60px;
+        background-image: url('images/lowres.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-left: -85px;
+        margin-bottom: -65px;
+        border-radius: 30px;
+}
+
+.five-items p{
+    margin-top:0;
+}
+
+.fifth-items-text{
+    color: rgba(128,128,128,0.8);
+}
+
+.fifth-sm{
+    color: rgba(240,55,55,0.8);
+}
+
+.border{
+    width:100%;
+    border: 1px solid gray;
+    margin-bottom:10px;
+}
