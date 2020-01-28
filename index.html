@@ -16,18 +16,20 @@
     <div class="container">
         <div class="flex">
             <div class="flex-header first-header">
-              <img src="images/logo.png" alt="logo" class="logo-image">
+             <div class="logo-div">
+                <img src="images/logo.png" alt="logo" class="logo-image">
+             </div>
                <div class="header-text">
-                <p class="flex-header-text">The Gem</p><br>
-                <p class="flex-header-desc">News/Magazines</p>
+                <p class="flex-header-text brand-name">TheGem</p><br>
+                <p class="flex-header-desc">NEWS/MAGAZINES</p>
                </div>
             </div>
             <div class="flex-content">
-                <p class="content-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus doloribus unde quibusdam excepturi dicta repellendus accusantium. Nemo quibusdam excepturi cupiditate neque, a culpa fugit recusandae!</p>
+                <p class="content-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus doloribus unde quibusdam excepturi dicta repellendus accusantium. A culpa fugit recusandae!</p>
             </div>
         </div>
         <div class="flex">
-            <div class="flex-header ">
+            <div class="flex-header-2 second-header">
                 <p class="flex-header-text">Categories</p>
             </div>
             <div class="flex-content">
@@ -40,7 +42,7 @@
             </div>
         </div>
         <div class="flex">
-            <div class="flex-header">
+            <div class="flex-header-2">
                 <p class="flex-header-text">Newsletter</p>
             </div>
             <div class="flex-content">
@@ -48,15 +50,15 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias cumque sequi consequuntur ipsam, qui eligendi!
                     </p>
                     <form action="#">
-                        <input type="email" name="emailaddress" placeholder="Your email address">
+                        <input type="email" name="emailaddress" placeholder="Your email address" class="email-input">
                         <button type="submit" class="submit-button">
-                            <i class="fa fa-angle-right"></i>               
+                            <i class="fa fa-angle-right icon-large"></i>               
                         </button>
                       </form>
             </div>
         </div>
         <div class="flex">
-            <div class="flex-header">
+            <div class="flex-header-2">
                 <p class="flex-header-text">Tags</p>
             </div>
             <div class="flex-content fourth-content">
@@ -75,10 +77,10 @@
             </div>
         </div>
         <div class="flex">
-            <div class="flex-header">
+            <div class="flex-header-2">
                 <p class="flex-header-text">Latest Posts</p>
             </div>
-            <div class="flex-content">
+            <div class="flex-content fifth-content">
                 <ul class="five-list">
                     <li class="five-items">
                         <p class="fifth-items-text">Regain your financial freedom</p>
@@ -99,50 +101,67 @@
         </div>
         
         <div class="flex">
-            <div class="flex-header">
+            <div class="flex-header-2 sixth-header">
                 <p class="flex-header-text">Our partners</p>
             </div>
             <div class="flex-content sixth-flex">
-                <img src="images/grey1.jpg" alt="" class="flex-images">
-                <img src="images/grey1.jpg" alt="" class="flex-images">
-                <img src="images/grey1.jpg" alt="" class="flex-images">
-                <img src="images/grey1.jpg" alt="" class="flex-images">
-                <img src="images/grey1.jpg" alt="" class="flex-images">
-                <img src="images/grey1.jpg" alt="" class="flex-images">
-                <img src="images/grey1.jpg" alt="" class="flex-images">
-                <img src="images/grey1.jpg" alt="" class="flex-images">
-                <img src="images/grey1.jpg" alt="" class="flex-images">
+                <div class="flex-images-div">
+                    <img src="images/grey1.jpg" alt="" class="flex-images">
+                </div>
+                <div class="flex-images-div">
+                    <img src="images/grey1.jpg" alt="" class="flex-images">
+                </div> 
+                <div class="flex-images-div">
+                    <img src="images/grey1.jpg" alt="" class="flex-images">
+                </div>
+                <div class="flex-images-div">
+                    <img src="images/grey1.jpg" alt="" class="flex-images">
+                </div>
+                <div class="flex-images-div">
+                    <img src="images/grey1.jpg" alt="" class="flex-images">
+                </div> 
+                <div class="flex-images-div">
+                    <img src="images/grey1.jpg" alt="" class="flex-images">
+                </div>
+                <div class="flex-images-div">
+                    <img src="images/grey1.jpg" alt="" class="flex-images">
+                </div>
+                <div class="flex-images-div">
+                    <img src="images/grey1.jpg" alt="" class="flex-images">
+                </div> 
+                <div class="flex-images-div">
+                    <img src="images/grey1.jpg" alt="" class="flex-images">
+                </div>
             </div>
         </div>
         <div class="flex">
-            <div class="flex-header">
+            <div class="flex-header-2">
                 <p class="flex-header-text"> Contact form</p>
             </div>
             <div class="flex-content">
                 <form class="form-wrapper">
-                   
-                      <h3>Your Details</h3>
-                      <input type="text" name="name" id="name" placeholder="Name*">
-                      <input type="text" name="email" id="email" placeholder="Email*">
-                      <input type="text" name="message" id="message" placeholder="Message">
-                      <div class="button">Next</div>
+                     
+                      <input type="text" name="name" class='contact-input' id="name" placeholder="Name*">
+                      <input type="text" name="email" id="email"  class='contact-input' placeholder="Email*">
+                      <textarea rows="4" cols="50" name="comment" form="usrform" class= 'text-area1' placeholder="Message"></textarea>
+                      <button type="submit" class="message-btn">SEND MESSAGE</button>
                 </form>
             </div>
         </div>
         <div class="flex">
-            <div class="flex-header">
+            <div class="flex-header-2">
                 <p class="flex-header-text">Flickr feed</p>
             </div>
-            <div class="flex-content">
-                <img src="images/grey1.jpg" alt="" class="flex-images">
-                <img src="images/grey1.jpg" alt="" class="flex-images">
-                <img src="images/grey1.jpg" alt="" class="flex-images">
-                <img src="images/grey1.jpg" alt="" class="flex-images">
-                <img src="images/grey1.jpg" alt="" class="flex-images">
-                <img src="images/grey1.jpg" alt="" class="flex-images">
-                <img src="images/grey1.jpg" alt="" class="flex-images">
-                <img src="images/grey1.jpg" alt="" class="flex-images">
-                <img src="images/grey1.jpg" alt="" class="flex-images">
+            <div class="flex-content last-content">
+                <img src="images/grey1.jpg" alt="" class=" image-1">
+                <img src="images/grey1.jpg" alt="" class=" image-1">
+                <img src="images/grey1.jpg" alt="" class=" image-1">
+                <img src="images/grey1.jpg" alt="" class=" image-1">
+                <img src="images/grey1.jpg" alt="" class=" image-1">
+                <img src="images/grey1.jpg" alt="" class=" image-1">
+                <img src="images/grey1.jpg" alt="" class=" image-1">
+                <img src="images/grey1.jpg" alt="" class=" image-1">
+                <img src="images/grey1.jpg" alt="" class=" image-1">
                 
             </div>
         </div>
